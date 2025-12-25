@@ -1,4 +1,4 @@
-package.json - importat file . additional packages, npm package,node manager package detiails get here .frontend and backend folder need of node_modules folder.
+package.json - importat file . additional packages, npm package,node manager package detiails get here .frontend and backend and dashboard folder need of node_modules folder.
 by using package.json we can recreate node module folder
 on github we dont have node module folder as it is too big so we have to install it we have to install node module so (npm i) by this it will go package.json and read all the pakages with its version and download all these using npm.
 
@@ -120,6 +120,7 @@ script written for automated testing use a framework named as jest-dom
 jest-dom is pre-installed library present in the package.json   
 go to website jestjs.io
 extention is test.js
+
 
 
 
