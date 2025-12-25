@@ -1,125 +1,125 @@
-//package.json - importat file . additional packages, npm package,node manager package detiails get here .
-//by using package.json we can recreate node module folder
-//on github we dont have node module folder as it is too big so we have to install it we have to install node module so (npm i) by this it will go package.json and read all the pakages with its version and download all these using npm.
+package.json - importat file . additional packages, npm package,node manager package detiails get here .
+by using package.json we can recreate node module folder
+on github we dont have node module folder as it is too big so we have to install it we have to install node module so (npm i) by this it will go package.json and read all the pakages with its version and download all these using npm.
 
-//package-lock.json it track dependencies of packages so for dependencies requried packages .
-//track packages which are external for our package  i.e packages for dependencies 
-//In the package.json we should not make changes in the file 
-//as we modify package.json chages are done by system in the package-lock.
+package-lock.json it track dependencies of packages so for dependencies requried packages .
+track packages which are external for our package  i.e packages for dependencies 
+In the package.json we should not make changes in the file 
+as we modify package.json chages are done by system in the package-lock.
 
-//gitignore:consist local environmant variable
+gitignore:consist local environmant variable
 
-//manifest.json : it track thing which are store in the cash-memory.
-//when we load a website 1st time it will take time but when we load same website it will load in less time,the reason behind this is when we load a webside 1st time we store some things in the browser's cash-memory 
-//the listing of these stored things in done in the manifest 
-//due to this project loading time will become less which is good.
+manifest.json : it track thing which are store in the cash-memory.
+when we load a website 1st time it will take time but when we load same website it will load in less time,the reason behind this is when we load a webside 1st time we store some things in the browser's cash-memory 
+the listing of these stored things in done in the manifest 
+due to this project loading time will become less which is good.
 
-//robot.txt:very important for search engine optimization.
-//this is the which is read 1st by search engine.
-//on the basis of instruction in this file our wesite is get croll.
-//crolling is the process by whcih seach engine get to know that what things are included in our website that can be meta tag, key words service based or product based .
-//when we register domain automatically croll appear or we can request manual croll (in google -> setting ->business setting-> request manual croll) so our website get crolled
-//so here for crolling we have to disallow something like admin section or any hidden route which we dont want to show public these things we can write in the disallow section of robots.txt file.
-//eg:
-//Disallow:
-//admin/
-//so croller will not visit to admin
+robot.txt:very important for search engine optimization.
+this is the which is read 1st by search engine.
+on the basis of instruction in this file our wesite is get croll.
+crolling is the process by whcih seach engine get to know that what things are included in our website that can be meta tag, key words service based or product based .
+when we register domain automatically croll appear or we can request manual croll (in google -> setting ->business setting-> request manual croll) so our website get crolled
+so here for crolling we have to disallow something like admin section or any hidden route which we dont want to show public these things we can write in the disallow section of robots.txt file.
+eg:
+Disallow:
+admin/
+so croller will not visit to admin
 
-//reportWebVitals.js: it consist some stacks or data whcih is collected by browser
-//it is default in react application
-//we will track when someone open app, boarding time, click options are tracked in this file
-//now we dont want it so deleting it.
-// code of it is :
-// const reportWebVitals = onPerfEntry => {
-//   if (onPerfEntry && onPerfEntry instanceof Function) {
-//     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-//       getCLS(onPerfEntry);
-//       getFID(onPerfEntry);
-//       getFCP(onPerfEntry);
-//       getLCP(onPerfEntry);
-//       getTTFB(onPerfEntry);
-//     });
-//   }
-// };
-// export default reportWebVitals;
+reportWebVitals.js: it consist some stacks or data whcih is collected by browser
+it is default in react application
+we will track when someone open app, boarding time, click options are tracked in this file
+now we dont want it so deleting it.
+ code of it is :
+ const reportWebVitals = onPerfEntry => {
+   if (onPerfEntry && onPerfEntry instanceof Function) {
+     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+       getCLS(onPerfEntry);
+       getFID(onPerfEntry);
+       getFCP(onPerfEntry);
+       getLCP(onPerfEntry);
+       getTTFB(onPerfEntry);
+     });
+   }
+ };
+ export default reportWebVitals;
 
-//note: always when starting project go in folder in which we wring project like frontend folder and do (git init)
-//1. git init
-//2. git add .                            ....it will go to modified phase of github
-//3. git commit -m "Initial Setup"
-//4. git checkout -b project-structure     ....for creating new branch & go to newer branch
-//this should be done after  every stage of completion so work is saved step by step
-
-
-//install extention simple react snippets use for shortcut in react codeing like "imr + tab button = import React from 'react'; " 
-//"npm start" to run project
-
-//note: if we copy code from booetstrap and other tehn we hve to format it so , right click -> format document -> configure -> select prittier configuration
-
-//react router is need to install for when we click on about need to route on on about page . "npm i react-router-dom"
-
-//<a> tag use for external link
-
-// mr-5  margin right
-// ml margin left 
-// mx margin left and right 
-// my margin top and buttom
-
-//it we want ot add our own sty;ing by css file in the index.html so add it after bootstrap .
+note: always when starting project go in folder in which we wring project like frontend folder and do (git init)
+1. git init
+2. git add .                            ....it will go to modified phase of github
+3. git commit -m "Initial Setup"
+4. git checkout -b project-structure     ....for creating new branch & go to newer branch
+this should be done after  every stage of completion so work is saved step by step
 
 
-//all about dashboard
-//left vertical(watch list) bar show stocks , 9/50 mean 9 are favourite stock and capacity is 50
-//green coloured name:stock price is increasing ,it is profit  
-//red coloured name: stock price is decreasing 
-//right side is summary that we have
-//equity:how much we have fund to spend to purchase stock
-//holding : currently what price of stock we have also show our investment in big box number we see under holding title show profit if number in green if in red the nit is loss according to our total purchased stoked that is based on all data
-//in 'order' section we track buy and sell of stock , but it not decide profit and loss
-//in 'holding' section we track profit loss with detail table format
-//position: we have to sell stock on a certain threshold(purchase stocked in 100 & we set lower limit like , if it go 90 sell it automatically as we facing loss)
-//funds: in 'add fund' we take funds from user so user can invest more money. 
-//       in 'withdraw',money  by which user not purchased stock after selling stocks that can be withdraw
-//last icon is of user portal here only logout will work
+install extention simple react snippets use for shortcut in react codeing like "imr + tab button = import React from 'react'; " 
+"npm start" to run project
 
-//on button of 'buy or sell' we get popup that ask which stock you want ot purchase with which amount
+note: if we copy code from booetstrap and other tehn we hve to format it so , right click -> format document -> configure -> select prittier configuration
 
-//as bootstrap we hane material ui but it is specially for react
+react router is need to install for when we click on about need to route on on about page . "npm i react-router-dom"
 
-//Backend : 
-//npm init
-//npm i -D nodemon  here we downloading developer dependencies
-//npm i express body-parser cors dotenv mongoose passport  passport-local  passport-local-mongoose
-//body-parser: help to work with data which is being get to and fro by API
-//cross origin resourse sharing (CORS): as our react application on different place and our backend is on another url between bot to establish communication we use cors with enhance security
-//dotenv: database url and credencial will get hidded so not visible publicly , it get hide on git ignore as all files are hidden
-//mongoose: it is package or depnencies which is use to connect database & all database realted task
-//passport : it help in the authentication and in login, signup
-//passport-local : it requried for passport
-// passport-local-mongoose: It is mongodb support package
-//to run backend index.js :' nodemon index.js' or npm start, for dashboard run nodemon index.js
-//.env : is hidden file , this file is local not public consist of mongodburl 
-//mongodb wesite -> connect -> drivers -> copy url 
-// in copied url : mongodb+srv://ananyarawool1004_mongodb:<db_password>@zerodhaclonecluster.1ekuvnx.mongodb.net/?retryWrites=true&w=majority&appName=....Zerodha....CloneCluster
-//  in url section ....anyname.... is a connection name
+<a> tag use for external link
+ mr-5  margin right
+ ml margin left 
+ mx margin left and right 
+ my margin top and buttom
 
-//database
-// our database name is default ' test' in which we have holding data
-//thunder client is the extension that is we use in place of postman
-// in thunder client 1st check server is runnign on the terminal or not and then send request by placeing url of that request on the field 
-//refresh on the database section of the mongodb so it appear under test section 
-//npm i axios in frontend folder to connect to the 
+it we want ot add our own sty;ing by css file in the index.html so add it after bootstrap .
 
-//context is piece of item whihc share components , it will effect cmoponent like buy popup by clicking on buy button 
 
-//testing project
-//after makeing changes in project,earlier featuers(feature mean uploaded image in the page is apprearing or not) are working smoothly or not  is called testing 
-//2 types: manual, automated testing 
-//in automation testing we write scripts which run in backend by browser to make sure that feature are running as expected , so no need to again and again test manually
-// it important that aleast one time manually testing will performed and then automatically
-//script written for automated testing use a framework named as jest-dom
-//jest-dom is pre-installed library present in the package.json   
-//go to website jestjs.io
-//extention is test.js
+all about dashboard
+left vertical(watch list) bar show stocks , 9/50 mean 9 are favourite stock and capacity is 50
+green coloured name:stock price is increasing ,it is profit  
+red coloured name: stock price is decreasing 
+right side is summary that we have
+equity:how much we have fund to spend to purchase stock
+holding : currently what price of stock we have also show our investment in big box number we see under holding title show profit if number in green if in red the nit is loss according to our total purchased stoked that is based on all data
+in 'order' section we track buy and sell of stock , but it not decide profit and loss
+in 'holding' section we track profit loss with detail table format
+position: we have to sell stock on a certain threshold(purchase stocked in 100 & we set lower limit like , if it go 90 sell it automatically as we facing loss)
+funds: in 'add fund' we take funds from user so user can invest more money. 
+       in 'withdraw',money  by which user not purchased stock after selling stocks that can be withdraw
+last icon is of user portal here only logout will work
+
+on button of 'buy or sell' we get popup that ask which stock you want ot purchase with which amount
+
+as bootstrap we hane material ui but it is specially for react
+
+Backend : 
+npm init
+npm i -D nodemon  here we downloading developer dependencies
+npm i express body-parser cors dotenv mongoose passport  passport-local  passport-local-mongoose
+body-parser: help to work with data which is being get to and fro by API
+cross origin resourse sharing (CORS): as our react application on different place and our backend is on another url between bot to establish communication we use cors with enhance security
+dotenv: database url and credencial will get hidded so not visible publicly , it get hide on git ignore as all files are hidden
+mongoose: it is package or depnencies which is use to connect database & all database realted task
+passport : it help in the authentication and in login, signup
+passport-local : it requried for passport
+ passport-local-mongoose: It is mongodb support package
+to run backend index.js :' nodemon index.js' or npm start, for dashboard run nodemon index.js
+.env : is hidden file , this file is local not public consist of mongodburl 
+mongodb wesite -> connect -> drivers -> copy url 
+ in copied url : mongodb+srv://ananyarawool1004_mongodb:<db_password>@zerodhaclonecluster.1ekuvnx.mongodb.net/?retryWrites=true&w=majority&appName=....Zerodha....CloneCluster
+  in url section ....anyname.... is a connection name
+
+database
+ our database name is default ' test' in which we have holding data
+thunder client is the extension that is we use in place of postman
+ in thunder client 1st check server is runnign on the terminal or not and then send request by placeing url of that request on the field 
+refresh on the database section of the mongodb so it appear under test section 
+npm i axios in frontend folder to connect to the 
+
+context is piece of item whihc share components , it will effect cmoponent like buy popup by clicking on buy button 
+
+testing project
+after makeing changes in project,earlier featuers(feature mean uploaded image in the page is apprearing or not) are working smoothly or not  is called testing 
+2 types: manual, automated testing 
+in automation testing we write scripts which run in backend by browser to make sure that feature are running as expected , so no need to again and again test manually
+ it important that aleast one time manually testing will performed and then automatically
+script written for automated testing use a framework named as jest-dom
+jest-dom is pre-installed library present in the package.json   
+go to website jestjs.io
+extention is test.js
+
 
 
