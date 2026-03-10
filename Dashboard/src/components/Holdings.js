@@ -7,10 +7,20 @@ import { data } from "@tensorflow/tfjs";
 const Holdings = () => {
       const [allHoldings, setAllHoldings] = useState([]);
       useEffect(() => {
-          axios.get("http://localhost:3002/allHoldings").then((res) =>{ //axios.get connect to link so to database after connecting to api then part start we want result 'res'
-            console.log(res.data);
-            setAllHoldings(res.data); //all the data from result , we are setting it to all holdings
-          })
+         // axios.get("http://localhost:3002/allHoldings").then((res) =>{ //axios.get connect to link so to database after connecting to api then part start we want result 'res'
+            //console.log(res.data);
+           // setAllHoldings(res.data); //all the data from result , we are setting it to all holdings
+         // })
+
+          axios.get("http://localhost:3002/allHoldings")
+              .then((res) => {
+               console.log(res.data);
+               setAllHoldings(res.data);
+              })
+             .catch((err) => {
+               console.error("API Error:", err);
+              });
+            
           }, []);
 
 //           const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
@@ -109,3 +119,4 @@ const data ={
 }
 
 export default Holdings;
+
