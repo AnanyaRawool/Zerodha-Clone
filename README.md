@@ -6,6 +6,6 @@ A frontend clone of the Zerodha trading platform built to practice modern web de
 - Structured layout similar to Zerodha  
 - Built using HTML, CSS, and JavaScript  
 
-<img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/4f09007d-a3e4-48ca-a4f1-3d0b9cbebaae" />
+<img width="1907" height="1009" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/da597ea8-97d0-4c3d-b996-1c0bab1e2a32" />
 
-<img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/2c4b59f1-7419-4a44-bf3a-e0463eafa58a" />
+<img width="1920" height="1021" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/be294eaa-9de8-4d41-af48-8556740519a3" />
